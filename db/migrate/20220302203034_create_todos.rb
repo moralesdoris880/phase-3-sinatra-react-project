@@ -3,7 +3,7 @@ class CreateTodos < ActiveRecord::Migration[6.1]
     create_table :todos do |t|
       t.string :title
       t.string :content
-      t.string :user_id
+      t.integer :user_id
     end
   end
 end
