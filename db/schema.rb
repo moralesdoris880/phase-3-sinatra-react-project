@@ -14,7 +14,6 @@ ActiveRecord::Schema.define(version: 2022_03_02_203034) do
 
   create_table "todos", force: :cascade do |t|
     t.string "title"
-    t.string "content"
     t.integer "user_id"
   end
 
